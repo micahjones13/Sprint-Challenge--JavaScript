@@ -122,7 +122,7 @@ The zoo wants to display both the scientific name and the animal name in front o
 const animalNames = [];
 // console.log(animalNames);
 zooAnimals.forEach(function(item){
-  animalNames.push('Name: ' + item.animal_name + ', ' + 'Scientific Name: ' + item.scientific_name);
+  animalNames.push('Name: ' + item.animal_name + ', ' + 'Scientific: ' + item.scientific_name);
 })
 console.log(animalNames);
 /* Request 2: .map()    
@@ -150,7 +150,7 @@ The zoos need to know their total animal population across the United States.  F
 const populationTotal = zooAnimals.reduce((acc, curVal) => {
   return acc += curVal.population;
 }, 0);
- console.log(populationTotal);
+ console.log('the poupulation total is: ' + populationTotal);
 
 /* 
 

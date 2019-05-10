@@ -34,11 +34,12 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is the difference between a function and a method?
 
-    Methods are usually associated with an object, where you use dot notation to call it. .map and .foreach are methods. Functions can be independent, but are very similar to methods. I believe that created a prototype function for an object makes that function a method of that object.
+    Methods are usually associated with an object, where you use dot notation to call it. .map and .foreach are methods. Functions can be independent, but are very similar to methods. I believe that creating a prototype function for an object makes that function a method of that object.
 
 3. What is closure?
 
-    Closure is a way of binding the 'this' keyword to a certain context. 
+    Closure is similar to scope in that it tells you/the program what it can and can't access. For example, if a var isn't defined in a functions scope, the function will look outside the function to find where var is defined. You can use closure to access things 
+    nested inside of other things, just by invoking the function that the data you want access to is inside of. 
 
 4. Describe the four rules of the 'this' keyword.
 
